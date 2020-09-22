@@ -1,0 +1,22 @@
+.col-md-3 img {
+    max-width: 100%;
+}
+body {
+    background-image: url(https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs2/137038231/original/8830af1dfc39c8d1b31b00b93329f61d269406ab/create-a-flat-and-minimalist-background.jpg);
+    background-repeat: no-repeat;
+}
+.card {
+    margin-top: 40px;
+}
+@media screen and (max-width: 576px){
+    .col-md-3 img {
+    }
+}
+@media screen and (max-width: 780px){
+    .col-md-3 img {
+        float: left;
+    }
+    .card-text {
+        float: right;
+    }
+}
