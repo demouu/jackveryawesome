@@ -1,6 +1,10 @@
 .col-md-3 img {
     max-width: 100%;
 }
+.col-md-6 img {
+    max-width: 100%;
+    margin-top: 20px;
+}
 body {
     background-image: url(https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs2/137038231/original/8830af1dfc39c8d1b31b00b93329f61d269406ab/create-a-flat-and-minimalist-background.jpg);
     background-repeat: no-repeat;
@@ -12,4 +16,8 @@ body {
     .col-md-3 img {
         max-width: 50%;
     }
+}
+.card-text {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 20px;
 }
