@@ -10,13 +10,6 @@ body {
 }
 @media screen and (max-width: 576px){
     .col-md-3 img {
-    }
-}
-@media screen and (max-width: 780px){
-    .col-md-3 img {
-        float: left;
-    }
-    .card-text {
-        float: right;
+        max-width: 50%;
     }
 }
