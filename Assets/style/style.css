@@ -18,7 +18,7 @@ body {
     margin-top: 40px;
 }
 /* Called Font 'IBM Plex Sans' from Google Fonts and applied it to my Cards' Text */
-.card-text {
+#card-text {
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 20px;
 }
