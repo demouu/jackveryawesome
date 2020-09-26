@@ -22,6 +22,9 @@ body {
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 20px;
 }
+#card-text2 {
+    font-size: 20px;
+}
 /* Created a Media Query for 2150px Max Width so the Background Image would not break on smaller screens */
 @media screen and (max-width: 2150px){
     body {
