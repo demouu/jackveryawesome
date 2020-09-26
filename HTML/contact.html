@@ -4,20 +4,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Creating Title-->
     <title>Contact</title>
+    <!--Calling Bootstrap CSS-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="../Assets/style/style.css" />
 </head>
 
 <body>
+    <!--Calling Bootstrap Dark Navbar-->
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <!--Navbar Name-->
         <a class="navbar-brand" href="index.html">Jack Kempton</a>
+        <!--Calling Collapsible Navbar for Smaller Screens-->
         <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
             aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <!--List of HTML Pages-->
             <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
                 <li class="nav-item">
                     <a class="nav-link" href="index.html">About </a>
@@ -31,19 +37,28 @@
             </ul>
         </div>
     </nav>
+    <!--Calling Bootstrap Grid-->
     <main class="container">
+        <!--Row to align Card to Grid-->
         <div class="row">
             <section class="col-md">
+                <!--Calling Bootstrap Card-->
                 <div class="card">
+                    <!--Creating Card Body-->
                     <div class="card-body">
+                        <!--Creating Card Title-->
                         <h4 class="card-title">Contact</h4>
+                        <!--Creating Form Inside Card-->
                         <article class="form-group">
+                            <!--Name Entry-->
                             <label for="">Name</label>
                             <input type="text" class="form-control" name="" id="" aria-describedby="helpId"
                                 placeholder="">
+                                <!--Email Entry-->
                             <label for="">Email</label>
                             <input type="text" class="form-control" name="" id="" aria-describedby="helpId"
                                 placeholder="">
+                                <!--Message with Text Area Entry-->
                             <div class="form-group">
                                 <label for="">Message</label>
                                 <textarea class="form-control" name="" id="" rows="3"></textarea>
@@ -55,6 +70,7 @@
             </section>
         </div>
     </main>
+    <!--Calling Bootstrap JScript-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
