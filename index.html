@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Creating Title-->
+    <title>About</title>
+    <!--Calling Bootstrap CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="Assets/style/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@1,500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!--Calling Bootstrap Dark Navbar-->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <!--Navbar Name-->
+        <a class="navbar-brand" href="#">Jack Kempton</a>
+        <!--Calling Collapsible Navbar for Smaller Screens-->
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <!--Tab List of HTML Pages, Index is Currently Active-->
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--Calling Bootstrap Grid-->
+    <main class="container">
+        <!--Row to align Card to Grid-->
+        <div class="row">
+            <!--Calling Bootstrap Card-->
+            <section class="card">
+                <!--Creating Card Body-->
+                <div class="card-body">
+                    <!--Creating Card Title-->
+                    <h4 class="card-title">About Me</h4>
+                    <!--Creating Grid Row Inside Card-->
+                    <div class="row">
+                        <!--Calling Image of Jack from Facebook, Aligned to Grid-->
+                        <div class="col-md-3">
+                            <img src="https://scontent-lax3-2.xx.fbcdn.net/v/t1.0-9/37987860_10216857540208273_2142374281890234368_n.jpg?_nc_cat=106&_nc_sid=8bfeb9&_nc_ohc=Rz-4k8loIrAAX-DdK6e&_nc_ht=scontent-lax3-2.xx&oh=e7fe361286eb42e1a59df3207e865e4f&oe=5F8E8D76"
+                                alt="Picture of Jack, smiling" class="img-fluid" />
+                        </div>
+                        <!--Aligning Paragraph to Grid-->
+                        <article class="col-md-9">
+                            <!--Paragraph of Card-->
+                            <p id="card-text">
+                                Hey! I'm Jack! I have been using computers my whole life. I have always had an
+                                interest for
+                                coding, but could never really find my place in the coding world, until I found this
+                                bootcamp! When I'm not coding, you can find me playing video games, skiing, hiking,
+                                or
+                                hanging out with my family!</p>
+                        </article>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <!--Calling Bootstrap JScript-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

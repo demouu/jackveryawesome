@@ -5,11 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Creating Title-->
-    <title>Contact</title>
+    <title>Portfolio</title>
     <!--Calling Bootstrap CSS-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="../Assets/style/style.css" />
+    <link rel="stylesheet" href="Assets/style/style.css" />
 </head>
 
 <body>
@@ -23,16 +23,16 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="collapsibleNavId">
-            <!--Tab List of HTML Pages. Contact is Currently Active-->
+            <!--Tab List of HTML Pages, Portfolio is Currently Active-->
             <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
                 <li class="nav-item">
                     <a class="nav-link" href="index.html">About </a>
                 </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
-                </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="portfolio.html">Portfolio </a>
+                    <a class="nav-link" href="contact.html">Contact </a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
                 </li>
             </ul>
         </div>
@@ -41,32 +41,31 @@
     <main class="container">
         <!--Row to align Card to Grid-->
         <div class="row">
-            <section class="col-md">
+            <div class="col-md">
                 <!--Calling Bootstrap Card-->
-                <div class="card">
+                <section class="card">
                     <!--Creating Card Body-->
                     <div class="card-body">
                         <!--Creating Card Title-->
-                        <h4 class="card-title">Contact</h4>
-                        <!--Creating Form Inside Card-->
-                        <article class="form-group">
-                            <!--Name Entry-->
-                            <label for="">Name</label>
-                            <input type="text" class="form-control">
-                                <!--Email Entry-->
-                            <label for="">Email</label>
-                            <input type="text" class="form-control">
-                                <!--Message with Text Area Entry-->
-                            <div class="form-group">
-                                <label for="">Message</label>
-                                <textarea class="form-control" rows="3"></textarea>
-                            </div>
-                        </article>
+                        <h4 class="card-title">Portfolio</h4>
+                        <!--Creating Grid Row Inside Card-->
+                        <div class="row">
+                            <!--First Column of Images-->
+                            <article class="col-md-6">
+                                <img src="http://via.placeholder.com/350" alt="placeholder image">
+                                <img src="http://via.placeholder.com/350" alt="placeholder image">
+                                <img src="http://via.placeholder.com/350" alt="placeholder image">
+                            </article>
+                            <!--Second Column of Images-->
+                            <article class="col-md-6">
+                                <img src="http://via.placeholder.com/350" alt="placeholder image">
+                                <img src="http://via.placeholder.com/350" alt="placeholder image">
+                                <img src="http://via.placeholder.com/350" alt="placeholder image">
+                            </article>
+                        </div>
                     </div>
-                    <!--Submit Button-->
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                </div>
-            </section>
+                </section>
+            </div>
         </div>
     </main>
     <!--Calling Bootstrap JScript-->
