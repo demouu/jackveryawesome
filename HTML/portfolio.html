@@ -4,57 +4,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css" />
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../Assets/style/style.css" />
 </head>
 
 <body>
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Jack Kempton</a>
+        <a class="navbar-brand" href="index.html">Jack Kempton</a>
         <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
             aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="collapsibleNavId">
             <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">About </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="contact.html">Contact </a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="portfolio.html">Portfolio </a>
+                <li class="nav-item active">
+                    <a class="nav-link" href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
                 </li>
             </ul>
         </div>
     </nav>
     <main class="container">
         <div class="row">
-            <!--Row to align Card to Grid-->
-            <section class="card">
-                <div class="card-body">
-                    <h4 class="card-title">About Me</h4>
-                    <div class="row">
-                        <div class="col-md-3">
-                            <img src="https://scontent-lax3-2.xx.fbcdn.net/v/t1.0-9/37987860_10216857540208273_2142374281890234368_n.jpg?_nc_cat=106&_nc_sid=8bfeb9&_nc_ohc=Rz-4k8loIrAAX-DdK6e&_nc_ht=scontent-lax3-2.xx&oh=e7fe361286eb42e1a59df3207e865e4f&oe=5F8E8D76"
-                                alt="Picture of Jack, smiling" class="img-fluid" />
+            <div class="col-md">
+                <section class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Portfolio</h4>
+                        <div class="row">
+                            <article class="col-md-6">
+                                <img src="http://via.placeholder.com/350" alt="placeholder image">
+                                <img src="http://via.placeholder.com/350" alt="placeholder image">
+                                <img src="http://via.placeholder.com/350" alt="">
+                            </article>
+                            <article class="col-md-6">
+                                <img src="http://via.placeholder.com/350" alt="">
+                                <img src="http://via.placeholder.com/350" alt="">
+                                <img src="http://via.placeholder.com/350" alt="">
+                            </article>
                         </div>
-                        <article class="col-md-9">
-                            <p class="card-text">
-                                Hey! I'm Jack! I have been using computers my whole life. I have always had an
-                                interest for
-                                coding, but could never really find my place in the coding world, until I found this
-                                bootcamp! When I'm not coding, you can find me playing video games, skiing, hiking,
-                                or
-                                hanging out with my family!</p>
-                        </article>
                     </div>
-                </div>
-            </section>
+                </section>
+            </div>
         </div>
     </main>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
